@@ -1,7 +1,7 @@
 # Electrical Systems Integration Project
 # 电子信息机器人ROS Jetson Nano 集成视觉项目
 
-![VESC Setup](https://github.com/Zhaobo-Wang/EE3EY4_Integration_Project/tree/main/md_project_pic/Capture5.png)
+![VESC Setup](https://github.com/Zhaobo-Wang/EE3EY4_Integration_Project/blob/main/md_project_pic/Capture5.PNG)
 ## Project Overview
 
 ### Part 1: Mastering Basic Linux Commands and AEV Components
