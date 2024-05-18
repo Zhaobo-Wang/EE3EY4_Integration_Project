@@ -1,4 +1,5 @@
 # Electrical Systems Integration Project
+# 电子信息机器人ROS Jetson Nano 集成视觉项目
 
 ## Project Overview
 
@@ -32,13 +33,23 @@ The second part of the project focused on integrating various AEV components int
   - Adjusted the vehicle odometer.
   - Conducted experiments using data from sensors such as lidar and cameras integrated into the AEV system.
 
+### Bonus computer vision
+
+- **Camera Integration:**
+  - Demonstrated successful integration of the camera by showcasing the EV's ability to detect and respond to a person using the captured data.
+  - The workflow diagram depicted the detection process, which relied on the DNN (Deep Neural Network) Inference Library.
+
+- **Detection Algorithm:**
+  - Implemented a topic called "detect_person/confidence" to publish a confidence node based on Linux Operation, allowing selective response to only a person in front of the EV.
+
+- **Navigation Algorithm:**
+  - Created a new AEV navigation algorithm that utilized the publish and subscribe principle in ROS (Robot Operating System).
+
 ### Outcomes
 
 - Achieved a comprehensive understanding and practical application of system integration and data processing in an autonomous vehicle environment.
 
 ---
-
-# 电子系统集成项目
 
 ## 项目概述
 
@@ -71,6 +82,18 @@ The second part of the project focused on integrating various AEV components int
   - 使用操纵杆手动控制AEV。
   - 调整车辆里程表。
   - 使用集成到AEV系统中的传感器（如激光雷达和摄像头）数据进行实验。
+
+### Bonus实验 CV计算机视觉
+
+- **摄像头集成：**
+  - 通过展示EV利用捕获的数据检测和响应人员，成功展示了摄像头的集成。
+  - 工作流程图展示了依赖于DNN（深度神经网络）推理库的检测过程。
+
+- **检测算法：**
+  - 实现了一个名为“detect_person/confidence”的主题，用于发布基于Linux操作的置信节点，从而仅对EV前方的人做出选择性响应。
+
+- **导航算法：**
+  - 创建了一个新的AEV导航算法，利用ROS（机器人操作系统）中的发布和订阅原则。
 
 ### 结果
 
