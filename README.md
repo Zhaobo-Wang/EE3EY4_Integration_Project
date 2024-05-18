@@ -48,8 +48,8 @@ The second part of the project focused on integrating various AEV components int
   - Controlled the AEV manually using a joystick.
   - Adjusted the vehicle odometer.
   - Conducted experiments using data from sensors such as lidar and cameras integrated into the AEV system.
-![VESC Setup](md_project_pic/Capture1.png)
-![VESC Setup](md_project_pic/Capture4.png)
+![VESC Setup]([md_project_pic/Capture1.png](https://github.com/Zhaobo-Wang/EE3EY4_Integration_Project/blob/main/md_project_pic/Capture1.PNG))
+![VESC Setup]([md_project_pic/Capture4.png](https://github.com/Zhaobo-Wang/EE3EY4_Integration_Project/blob/main/md_project_pic/Capture4.PNG))
 
 ### 第2部分：集成AEV组件并设置仿真环境
 
@@ -77,8 +77,8 @@ The second part of the project focused on integrating various AEV components int
 
 - **Navigation Algorithm:**
   - Created a new AEV navigation algorithm that utilized the publish and subscribe principle in ROS (Robot Operating System).
-![VESC Setup](md_project_pic/Capture2.png)
-![VESC Setup](md_project_pic/Capture3.png)
+![VESC Setup]([md_project_pic/Capture2.png](https://github.com/Zhaobo-Wang/EE3EY4_Integration_Project/blob/main/md_project_pic/Capture2.PNG))
+![VESC Setup]([md_project_pic/Capture3.png](https://github.com/Zhaobo-Wang/EE3EY4_Integration_Project/blob/main/md_project_pic/Capture3.PNG))
 
 ### Outcomes
 
